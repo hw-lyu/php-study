@@ -1,7 +1,8 @@
 {
     "require": {
-        "predis/predis": "^2.2",
-        "psr/simple-cache": "*"
+        "psr/simple-cache": "*",
+        "symfony/cache": "^6.2",
+        "ext-redis": "*"
     },
     "autoload": {
         "psr-4": {
