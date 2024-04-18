@@ -13,7 +13,7 @@ services:
     ports:
       - "15000:9000"
     volumes:
-      - ./:/var/www/html
+      - ./:/var/www
       - ./php.ini:/usr/local/etc/php/php.ini-production
 
   mysql:

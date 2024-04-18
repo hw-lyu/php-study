@@ -1,10 +1,11 @@
 {
     "require": {
-        "predis/predis": "^2.2"
+        "predis/predis": "^2.2",
+        "psr/simple-cache": "*"
     },
     "autoload": {
         "psr-4": {
-            "vendor\\predis\\predis": "predis/"
+            "App\\": "App/"
         }
     }
 }
